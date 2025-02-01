@@ -1,0 +1,29 @@
+# Lockage Messages
+# You can customize all plugin messages here
+
+general:
+  prefix: "&8[&6Lockage&8] &7"
+  reload: "&aConfiguration reloaded successfully!"
+  no-permission: "&cYou don't have permission to do this!"
+
+keys:
+  created: "&aNew key created for chest!"
+  copied: "&aKey copied successfully!"
+  invalid: "&cThis is not a valid key!"
+  max-reached: "&cYou've reached the maximum number of keys for this chest!"
+
+chests:
+  locked: "&aChest locked successfully!"
+  unlocked: "&aChest unlocked successfully!"
+  already-locked: "&cThis chest is already locked!"
+  protected: "&cThis chest is locked! You need the correct key to open it."
+  break-protected: "&cYou cannot break a locked chest!"
+
+commands:
+  help:
+    - "&6=== Lockage Help ==="
+    - "&7/lock - Lock a chest with a key"
+    - "&7/unlock - Unlock a chest with a key"
+    - "&7/createkey - Create a copy of an existing key"
+    - "&7/lockage reload - Reload the configuration"
+  invalid-usage: "&cInvalid command usage! Type /lockage help for help." 

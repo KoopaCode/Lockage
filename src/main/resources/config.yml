@@ -1,0 +1,29 @@
+# Lockage Configuration
+
+# Messages
+messages:
+  prefix: "&8[&6Lockage&8] &7"
+  chest-locked: "&aChest locked successfully! Right-click with this key to unlock it."
+  chest-unlocked: "&aChest unlocked! Right-click with a tripwire hook to lock it again."
+  chest-protected: "&cThis chest is locked! You need the correct key to open it."
+  no-permission: "&cYou don't have permission to do this!"
+  invalid-key: "&cThis key doesn't work with this chest!"
+
+# Settings
+settings:
+  # Should players be able to break locked chests?
+  allow-break-locked-chests: false
+  
+  # Should locked chests be protected from explosions?
+  protect-from-explosions: true
+  
+  # Should double chests be locked together?
+  lock-double-chests: true
+
+# Database settings
+database:
+  # Database file name
+  filename: "database.db"
+  
+  # How often to auto-save (in minutes)
+  auto-save: 5 
