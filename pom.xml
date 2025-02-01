@@ -6,11 +6,11 @@
 
     <groupId>com.koopalabs</groupId>
     <artifactId>lockage</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0-BETA</version>
     <packaging>jar</packaging>
 
     <name>Lockage</name>
-    <description>A chest locking system using tripwire hooks as keys</description>
+    <description>A chest locking system using tripwire hooks as keys [BETA]</description>
 
     <properties>
         <java.version>17</java.version>

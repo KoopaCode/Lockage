@@ -39,7 +39,9 @@ public class LockageCommand implements CommandExecutor {
     }
 
     private void sendHelpMessage(Player player) {
-        player.sendMessage(ChatColor.GOLD + "=== Lockage Help ===");
+        player.sendMessage(ChatColor.GOLD + "=== Lockage BETA Help ===");
+        player.sendMessage(ChatColor.RED + "Warning: This plugin is in BETA. Use with caution!");
+        player.sendMessage("");
         player.sendMessage(ChatColor.YELLOW + "How to use:");
         player.sendMessage(ChatColor.GRAY + "1. Get a tripwire hook");
         player.sendMessage(ChatColor.GRAY + "2. Right-click an unlocked chest with the tripwire hook to lock it");
@@ -55,5 +57,7 @@ public class LockageCommand implements CommandExecutor {
         player.sendMessage(ChatColor.GRAY + "• Each key is unique to its chest");
         player.sendMessage(ChatColor.GRAY + "• Keep your keys safe!");
         player.sendMessage(ChatColor.GRAY + "• Only the key that locked a chest can unlock it");
+        player.sendMessage("");
+        player.sendMessage(ChatColor.RED + "Found a bug? Report it to the server staff!");
     }
 } 
