@@ -39,8 +39,8 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PLUGIN_FILE }}-${{ env.PLUGIN_VERSION }}
-        path: target/${{ env.PLUGIN_FILE }}-${{ env.PLUGIN_VERSION }}.jar
+        name: ${{ env.PLUGIN_NAME }}-${{ env.PLUGIN_VERSION }}
+        path: target/*.jar
         retention-days: 30
 
     - name: Send Build Notification
